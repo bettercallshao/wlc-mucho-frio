@@ -8,3 +8,7 @@
     https://github.com/apache/flink/blob/master/flink-examples/flink-examples-streaming/src/main/scala/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing.scala
 
     mvn archetype:generate -DarchetypeGroupId=org.apache.flink -DarchetypeArtifactId=flink-walkthrough-datastream-scala -DarchetypeVersion=1.10.0 -DgroupId=wlc -DartifactId=wlc -Dversion=0.1 -Dpackage=spendreport -DinteractiveMode=false
+
+* Download data
+    https://github.com/PaytmLabs/WeblogChallenge/blob/master/data/2015_07_22_mktplace_shop_web_log_sample.log.gz?raw=true
+
