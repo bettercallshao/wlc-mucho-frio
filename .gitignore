@@ -1,5 +1,6 @@
 flink-*
 *.metals
+*.txt
 
 *.class
 *.log
