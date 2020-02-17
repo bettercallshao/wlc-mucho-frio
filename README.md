@@ -85,6 +85,8 @@ Operations / helpers are written in `Ops.scala`, unit tests are included.
 
 ## Improvements
 
+* Preliminary validation is done against the exploration results, but in depth validation from other source should be done before we can trust the pipeline.
+* Inactivity gap, session cut off, and watermark lag can be tuned based on analysis of result and business needs.
 * Utilize user agent data (os, type, version) in addition to IP to identify different users.
 * Flink's `keyBy` is used redundantly a few times. More research may yield a workaround.
 * Flink's `timeWindow` is used repeatedly over the same stream. More research may yield a workaround.
